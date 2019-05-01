@@ -1,0 +1,148 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 961px;
+    height: 550px;
+    margin: 65px auto;
+}
+
+.headline h2 {
+    margin: 0 0 25px 0;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+/* todo list */
+
+.todo-list {
+    float: left;
+    width: 49%;
+}
+
+.empty-item {
+    display: inline-block;
+    margin-top: 50px;
+    color: rgb(126, 136, 163);
+    font-size: 16px;
+}
+
+.todo-item-wrap {
+    height: 550px;
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+.todo-item {
+    width: 470px;
+
+    margin-bottom: 20px;
+    background-color: #fff;
+    word-wrap:break-word
+}
+
+.todo-item-headline {
+    width: 100%;
+    min-height: 50px;
+    position: relative;
+}
+
+.todo-slide-down {
+    position: absolute;
+    right: 23px;
+    top: 22px;
+    width: 9px;
+    height: 9px;
+    background-image: url(/img/slide-todo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.todo-item-headline h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    float: left;
+    padding: 15px 0 0 20px;
+}
+
+.remove-todo {
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    margin: 21px 0 0 22px;
+    background-image: url(/img/remove-todo.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+
+.todo-item-description {
+    height: 85px;
+    margin: 0;
+    border-top: 1px solid rgb(246, 246, 246);
+    padding: 5px 0 0 20px;
+    color: rgb(134, 143, 169);
+    font-size: 14px;
+}
+/* end todo-list */
+
+.add-new-todo {
+    float: right;
+    width: 49%;
+}
+
+.todo-form {
+    background-color: #fff;
+    padding: 29px 0 0 40px;
+}
+
+.todo-form label {
+    display: block;
+    color: rgb(126, 136, 163);
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.name-todo {
+    width: 386px;
+    height: 42px;
+    background-color: rgb(252, 251, 252);
+    border: 1px solid rgb(232, 232, 232);
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.todo-form textarea {
+    width: 386px;
+    height: 227px;
+    padding-left: 10px;
+    resize: none;
+    background-color: rgb(252, 251, 252);
+    border: 1px solid rgb(232, 232, 232);
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.todo-btn {
+    padding: 0;
+    margin: 0;
+    width: 224px;
+    height: 55px;
+    font-size: 16px;
+    background-color: rgb(29, 105, 253);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 35px;
+    outline: none;
+}

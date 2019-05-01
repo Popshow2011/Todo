@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="todo">
+        <div class="container">
+            <div class="todo-list">
+                <div class="headline">
+                    <h2>Список дел:</h2>
+                </div>
+                <div class="todo-item-wrap">
+                    <span class="empty-item">Список пуст...</span>
+                </div>
+            </div>
+
+            <div class="add-new-todo">
+                <div class="headline">
+                    <h2>Добавить новое дело</h2>
+                </div>
+                <form class="todo-form">
+                    <label for="name-todo">* Название</label>
+                    <input class="name-todo" value="" required type="text" name="name-todo" id="name-todo" placeholder="Введите название ToDo">
+
+                    <label for="todo-description">* Описание</label>
+                    <textarea name="todo-description" required id="todo-description" placeholder="Введите описание заметки"></textarea>
+
+                    <button class="todo-btn" type="submit">Добавить дело</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
