@@ -58,7 +58,7 @@ html, body {
     top: 22px;
     width: 9px;
     height: 9px;
-    background-image: url(/img/slide-todo.png);
+    background-image: url(../img/slide-todo.png);
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -77,7 +77,7 @@ html, body {
     height: 9px;
     display: inline-block;
     margin: 21px 0 0 22px;
-    background-image: url(/img/remove-todo.png);
+    background-image: url(../img/remove-todo.png);
     background-repeat: no-repeat;
     cursor: pointer;
 }
